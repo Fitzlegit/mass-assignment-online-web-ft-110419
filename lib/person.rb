@@ -5,6 +5,6 @@ class Person
   def initialize(attributes)
     attributes.each_char { |key, value| self.send (("#{key}="), value)}
   end
-    
-    
+
+
 end
